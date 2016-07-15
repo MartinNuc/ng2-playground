@@ -1,7 +1,5 @@
 import {Component, ViewEncapsulation} from "@angular/core";
-import {Routes, ROUTER_DIRECTIVES} from "@angular/router";
-import {Home} from "./components/home/home.component";
-import {About} from "./components/about/about.component";
+import { ROUTER_DIRECTIVES } from '@angular/router';
 
 @Component({
     selector: 'app',
@@ -18,9 +16,5 @@ import {About} from "./components/about/about.component";
     <router-outlet></router-outlet>
   `
 })
-@Routes([
-    {path: '/', component: Home},
-    {path: '/about', component: About},
-])
 export class AppComponent {
 }
