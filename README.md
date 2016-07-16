@@ -2,13 +2,13 @@
 
 This is playground for Angular2 rc.1 built with webpack.
 
-- using rc.1 component router (`@angular/router`)
+- using rc.4 component router (`@angular/router`)
 - using sass loader
 - using firebase as a data source
 
 # Prerequisities
 
-- npm, node
+- last npm!, node
 
 # First run
 
